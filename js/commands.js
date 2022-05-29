@@ -8,6 +8,7 @@ var arx = "https://arxoccultus.io/";
 var pizza = "https://ggfoodshop.com/";
 var charts = "https://chartsbygrant.xyz/";
 var art = "https://dontblend.in/";
+var booking = "https://grantbooking.xyz/"
 
 whois = [
   "<br>",
@@ -36,6 +37,7 @@ projects = [
   "<br>",
   'static portfolio    <a href="' + resume + '" target="_blank">grantgariepy.com' + "</a>",
   'web3 password manager    <a href="' + arx + '" target="_blank">arxoccultus.io' + "</a>",
+  'hotel booking website    <a href="' + booking + '" target="_blank">grantbooking.xyz' + "</a>",
   'online food shop    <a href="' + pizza + '" target="_blank">ggfoodshop.com' + "</a>",
   'mysql/php charts    <a href="' + charts + '" target="_blank">chartsbygrant.xyz' + "</a>",
   'neuralnet art    <a href="' + art + '" target="_blank">dontblend.in' + "</a>",
