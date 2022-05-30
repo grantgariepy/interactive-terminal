@@ -91,6 +91,9 @@ function commander(cmd) {
     case "projects":
       loopLines(projects, "color2 margin", 80);
       break;
+    case "skills":
+      loopLines(skills, "color2 margin", 80);
+      break;
     case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
@@ -110,21 +113,9 @@ function commander(cmd) {
       loopLines(banner, "", 80);
       break;
     // socials
-    case "youtube":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
-    case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
-      newTab(twitter);
-      break;
     case "linkedin":
       addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
-      break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
       break;
     case "github":
       addLine("Opening GitHub...", "color2", 0);

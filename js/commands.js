@@ -1,6 +1,4 @@
-
 var linkedin = "https://www.linkedin.com/in/grantgariepy/";
-
 var github = "https://github.com/grantgariepy/";
 var email = 'mailto:grant.gariepy@gmail.com';
 var resume = "https://grantgariepy.com/";
@@ -27,7 +25,6 @@ whoami = [
 social = [
   "<br>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/grantgariepy' + "</a>",
-  
   'github         <a href="' + github + '" target="_blank">github/grantgariepy' + "</a>",
   "<br>"
 ];
@@ -35,12 +32,19 @@ social = [
 
 projects = [
   "<br>",
-  'static portfolio    <a href="' + resume + '" target="_blank">grantgariepy.com' + "</a>",
+  'static portfolio         <a href="' + resume + '" target="_blank">grantgariepy.com' + "</a>",
   'web3 password manager    <a href="' + arx + '" target="_blank">arxoccultus.io' + "</a>",
-  'hotel booking website    <a href="' + booking + '" target="_blank">grantbooking.xyz' + "</a>",
-  'online food shop    <a href="' + pizza + '" target="_blank">ggfoodshop.com' + "</a>",
-  'mysql/php charts    <a href="' + charts + '" target="_blank">chartsbygrant.xyz' + "</a>",
-  'neuralnet art    <a href="' + art + '" target="_blank">dontblend.in' + "</a>",
+  'hotel booking app        <a href="' + booking + '" target="_blank">grantbooking.xyz' + "</a>",
+  'online food shop         <a href="' + pizza + '" target="_blank">ggfoodshop.com' + "</a>",
+  'mysql/php charts         <a href="' + charts + '" target="_blank">chartsbygrant.xyz' + "</a>",
+  'neuralnet art            <a href="' + art + '" target="_blank">dontblend.in' + "</a>",
+  "<br>"
+];
+skills = [
+  "<br>",
+  'Languages:        HTML, CSS, JavaScript, ReactJS, PHP, MySQL, jQuery, Bootstrap, Git',
+  'Photo Editing:    Adobe Photoshop, Adobe Illustrator',
+  'Video Editing:    Adobe Premier, Sony Vegas, DaVinci Resolve',
   "<br>"
 ];
 
@@ -48,10 +52,9 @@ help = [
   "<br>",
   '<span class="command">whois</span>          Who is Grant?',
   '<span class="command">whoami</span>         Who are you?',
-  
   '<span class="command">social</span>         Display social networks',
-  
   '<span class="command">projects</span>       View coding projects',
+  '<span class="command">skills</span>         View additional skills',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           You obviously already know what this does',
   '<span class="command">email</span>          Email me',
